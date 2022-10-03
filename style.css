@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+}
+
+.project {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 92px);
+}
+
+textarea {
+    width: 345px;
+    height: 60px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 56px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: right;
+}
+
+input[name="number"] {
+    width: 76px;
+    height: 76px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #333333;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 12px;
+}
+
+input[value="0"] {
+    width: 168px;
+    height: 76px;
+    border-radius: 38px;
+}
+input[value="."] {
+    position: absolute;
+    left: 184px;
+}
+
+input[value="="] {
+    position: absolute;
+    left: 276px;
+} 
+
+input[color=lightgray] {
+    width: 76px;
+    height: 76px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #a5a5a5;
+    color: black;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 12px;
+}
+
+input[color=orange] {
+    width: 76px;
+    height: 76px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #fea00a;
+    color: white;
+    font-size: 44px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 12px;
+}
